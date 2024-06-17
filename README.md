@@ -1,3 +1,6 @@
+![image](https://github.com/Promptlayer/ExtendedClientWindow/assets/132779387/7182502d-533c-43c5-ae00-fb606639e3d7)
+
+
 This C++ code provides functionality for extending the client area of a window to cover the entire window, including the non-client area (like the title bar and window frame). It's implemented as a DLL (ExtendClientArea.dll) that can be used in various applications to modify window behaviors. The code involves Windows API and Direct2D manipulation.
 
 Description:
@@ -26,3 +29,5 @@ Load the DLL in your application.
 Call the InitializeCustomWindowProc function with the handle of the window you want to customize.
 Use other provided functions to control window behavior as needed.
 This approach is commonly used in custom GUI applications where the developer wants to maintain the native window behavior while customizing the appearance and interaction model of the window.
+
+![image](https://github.com/Promptlayer/ExtendedClientWindow/assets/132779387/8bec906e-62c8-47ef-8360-5d145d7068ac)
